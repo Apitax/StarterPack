@@ -11,6 +11,7 @@ log-human-readable = false
 log-prefixes = true
 default-mode = api
 secret = SOME_SUPER_SECRET_TEXT
+allow-cors = true
 
 [DefaultGitDriver]
 git-repo-clone-url = https://github.com/Apitax/Scripts.git

@@ -7,17 +7,17 @@ class Project:
  
     def loadDrivers(self):
         #pass
-        from apitaxdrivers.plugins.BasicGit import BasicGitDriver
-        from apitaxdrivers.plugins.BasicAuth import BasicAuthDriver
+        from apitaxdrivers.BasicGit import BasicGitDriver
+        from apitaxdrivers.BasicAuth import BasicAuthDriver
 
-        from apitaxdrivers.plugins.ApitaxTests import ApitaxTestsDriver
-        from apitaxdrivers.plugins.commandtax.ApitaxTestsCommands import ApitaxTestsCommands
-        from apitaxdrivers.plugins.ApitaxInfo import ApitaxInfoDriver
-        from apitaxdrivers.plugins.commandtax.ApitaxInfoCommands import ApitaxInfoCommands
+        from apitaxdrivers.ApitaxTests import ApitaxTestsDriver
+        from apitaxdrivers.commandtax.ApitaxTestsCommands import ApitaxTestsCommands
+        from apitaxdrivers.ApitaxInfo import ApitaxInfoDriver
+        from apitaxdrivers.commandtax.ApitaxInfoCommands import ApitaxInfoCommands
         
-        from apitaxdrivers.plugins.Openstack import OpenstackDriver
+        from apitaxdrivers.Openstack import OpenstackDriver
 
-        from apitaxdrivers.plugins.Github import GithubDriver
+        from apitaxdrivers.Github import GithubDriver
         
         Drivers.add("BasicGitDriver", BasicGitDriver())
         Drivers.add("BasicAuthDriver", BasicAuthDriver())

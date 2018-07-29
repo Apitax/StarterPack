@@ -10,3 +10,7 @@ StarterPack Benefits and Features:
 
 ##### Notes:
 * StarterPack utilizes Pip and Docker to build the application. For this reason, an internet connection is required on the machine you use to build these images.
+
+## Launching
+`docker-compose up --build`
+* `allow-cors` in config should be set to false unless you are using this application locally, for tests, or for development
