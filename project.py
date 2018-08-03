@@ -19,6 +19,12 @@ class Project:
 
         from apitaxdrivers.Github import GithubDriver
         
+        from app.Vsrx import VsrxDriver
+        
+        #from apitaxdrivers.commandtax.AnsibleCommands import AnsibleCommands
+        from app.AnsibleCommands import AnsibleCommands
+        from apitaxdrivers.Ansible import AnsibleDriver
+        
         Drivers.add("BasicGitDriver", BasicGitDriver())
         Drivers.add("BasicAuthDriver", BasicAuthDriver())
         Drivers.add("ApitaxTestsDriver", ApitaxTestsDriver())
@@ -27,5 +33,13 @@ class Project:
         Drivers.add("ApitaxInfoCommands", ApitaxInfoCommands())
         Drivers.add("OpenstackDriver", OpenstackDriver())
         Drivers.add("GithubDriver", GithubDriver())
+        
+        Drivers.add("VsrxDriver", VsrxDriver())
+        
+        Drivers.add("AnsibleDriver", AnsibleDriver())
+        Drivers.add("AnsibleCommands", AnsibleCommands())
+        
+#p = Project()
+#p.loadDrivers()
         
 

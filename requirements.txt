@@ -1,3 +1,3 @@
-apitax==2.2.10
-apitaxdrivers==0.0.3
+apitax==2.2.16
+apitaxdrivers==0.0.5
 
