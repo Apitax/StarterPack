@@ -1,3 +1,6 @@
 apitax==2.2.16
 apitaxdrivers==0.0.5
 
+# EXTRAS AND DRIVER RELATED INSTALLS
+ansible
+
