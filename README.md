@@ -37,7 +37,7 @@ Scriptax:
 * (Coming Soon) - A package on PyPi
 
 Apitax/Core:
-* * https://pypi.org/project/apitax/
+* https://pypi.org/project/apitax/
 * https://hub.docker.com/r/apitax/core/
 * https://github.com/Apitax/Core
 * (Build Server - Currently down) - https://openrubicon.com/job/Apitax/
