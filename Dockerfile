@@ -2,7 +2,7 @@
 # This allows you to incorporate custom application code, drivers, and more
 
 # Use the latest version of Apitax
-FROM apitax/apitax:3.0.3
+FROM apitax/apitax:3.0.4
 
 # Copy requirements in for driver installs etc.
 COPY requirements.txt /tmp/apiax/requirements.txt
