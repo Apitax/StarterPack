@@ -2,8 +2,7 @@
 # This allows you to incorporate custom application code, drivers, and more
 
 # Use the latest version of Apitax
-#FROM shawnclake/apitax:latest
-FROM shawnclake/apitax:latest
+FROM apitax/apitax:latest
 
 # Copy requirements in for driver installs etc.
 COPY requirements.txt /tmp/apiax/requirements.txt
@@ -12,14 +11,10 @@ COPY requirements.txt /tmp/apiax/requirements.txt
 RUN cd /tmp/apiax && pip install -r requirements.txt --no-cache ; exit 0
 
 # Copy in project, config, and app code
-COPY project.py /app/project.py
-COPY config.txt /app/config.txt
 COPY app /app/app
 
 # Remove the tmp folder
 RUN rm -rf /tmp/apitax
-
-
 
 
 # EXTRAS AND DRIVER RELATED INSTALLS
